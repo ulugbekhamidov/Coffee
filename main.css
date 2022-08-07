@@ -2,21 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Barlow","Fraunces";
 }
 
 .container {
     max-width: 1440px;
-    margin: 44px;
+    padding: 44px;
+    margin: auto;
 }
 
 .header-inner__box {
-    margin-left: 650px;
+    margin-left: 710px;
 }
 
 .site-header {
     display: flex;
     align-items: center;
-    position: fixed;
 }
 
 .header__nav ul {
@@ -31,6 +32,7 @@
 
 .header__nav ul li a {
     text-decoration: none;
+    width: 270px;
     font-family: 'Barlow';
     font-weight: 700;
     font-size: 12px;
@@ -43,4 +45,341 @@
     opacity: 1;
     color: #000;
     transition: 0.3s ease;
+}
+
+.section__watch-info{
+    background-image: url(./img/Bitmap\ \(1\).png);
+    width: 1280px;
+    height: 600px;
+    padding-top: 117px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.info-watch__title {
+    height: 145px;
+    width: 493px;
+    margin-left: 86px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.info-watch__text {
+    width: 445px;
+    height: 78px;
+    margin-top: 32px;
+    margin-left: 86px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.7;
+}
+
+.info-watch__button {
+    background: #66D2CF;
+    width: 217px;
+    height: 56px;
+    margin-top: 56px;
+    margin-left: 86px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+}
+
+.info-watch__button:hover {
+    background: #0E8784;
+    transition: 0.3s ease;
+}
+
+.our-collection__text {
+    position: absolute;
+    font-size: 190px;
+    opacity: 0.2;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+
+.triple-info__box {
+    width: 1111px;
+    margin-top: 140px;
+    margin-left: 78px;
+}
+
+.triple-info__inner {
+    display: flex;
+    gap: 55px;
+    margin-left: 90px;
+    margin-top: 107px;
+}
+
+.our-collection__img {
+    position: relative; 
+    margin-top: 126px;
+}
+
+.site-triple__info-watch {
+    display: flex;
+    margin-left: 86px;
+    margin-top: 71.55px;
+    gap: 30px;
+}
+
+.triple-info__espresso {
+    width: 255px;
+    height: 32px;
+    text-decoration: none;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 70px;
+    align-items:center; 
+    color: #333D4B;
+}
+
+.triple-info__espresso:hover{
+    color: #333D4B;
+    opacity: 0.8;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+.info-espresso__text {
+    font-family: 'Barlow';
+    width: 255px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    opacity: 0.5;
+}
+
+.brand-section {
+    width: 1280px;
+    height: 600px;
+    margin-top: 179.45px;
+    background: #333D4B;
+}
+
+.brand-why__choose {
+    padding-top: 121px;
+    justify-content: center;
+    top: calc(50% - 48px/2 - 56px);
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.means-working {
+    width: 540px;
+    height: 80px;
+    margin-left: 370px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    justify-content: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 32px;
+}
+
+.special-offers {
+    gap: 30px;
+    display: flex;
+    margin-left: 85px;
+    margin-top: 67px;
+}
+
+.special-offers__box {
+    width: 350px;
+    height: 382px;
+    text-align: center;
+    justify-content: center;
+    background: #0E8784;
+    border-radius: 8px;;
+}
+
+.site-specal__logo {
+    top: calc(50% - 32px/2 - 51px);
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.site-specal__logo:hover{
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+
+.coffee-image {
+    margin-top: 72px;
+}
+
+.site-specal__text {
+    width: 255px;
+    height: 78px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-left: 47px;
+    margin-top: 24px;
+}
+
+.health-control__section {
+    margin-top: 312px;
+}
+
+.health-control__site {
+    gap: 95px;
+}
+
+.how-works {
+    height: 32px;
+    top: calc(50% - 32px/2 - 266.5px);
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 65px;
+
+
+
+color: #83888F;
+}
+
+.line-dot {
+    margin-top: 80px;
+    margin-left: 65px;
+    display: flex;
+    gap: 349px;
+    
+    
+}
+
+.circle-tre {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+}
+
+.health-control__site {
+    display: flex;
+    margin-left: 65px;
+}
+
+.control-site__box {
+    margin-top: 67px;
+}
+
+.control-one__start {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+
+
+color: #FDD6BA;
+}
+
+.control-health {
+    width: 255px;
+    height: 73px;
+    margin-top: 38px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.health-for__you {
+    width: 285px;
+    height: 130px;
+    margin-top: 42px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.5;
+}
+
+.info-watch__btn {
+    background: #66D2CF;
+    width: 217px;
+    height: 56px;
+    margin-top: 56px;
+    margin-left: 3px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+}
+
+.info-watch__btn:hover {
+    background: #0E8784;
+    transition: 0.3s ease;
+}
+
+.main-footer {
+    background-color: #2C343E;
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    margin-top: 200px;
+}
+
+.site-footer__img {
+    margin: 47px;
+}
+
+.footer-inner__box {
+    margin-top: 53px;
+    margin-left: 103px;
+}
+
+.site-icon {
+    margin-top: 53px;
+    margin-left: 369px;
+    display: flex;
+    gap: 24px;
 }
