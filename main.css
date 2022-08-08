@@ -32,6 +32,7 @@
 
 .header__nav ul li a {
     text-decoration: none;
+    white-space: nowrap;
     width: 270px;
     font-family: 'Barlow';
     font-weight: 700;
@@ -103,6 +104,7 @@
 
 .our-collection__text {
     position: absolute;
+    white-space: nowrap;
     font-size: 190px;
     opacity: 0.2;
     background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
@@ -133,6 +135,10 @@
     gap: 30px;
 }
 
+.site-triple__info {
+    text-align: center;
+}
+
 .triple-info__espresso {
     width: 255px;
     height: 32px;
@@ -142,7 +148,6 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    margin-left: 70px;
     align-items:center; 
     color: #333D4B;
 }
@@ -209,6 +214,10 @@
     display: flex;
     margin-left: 85px;
     margin-top: 67px;
+}
+
+.special-offers__box--form {
+    margin-top: 56px;
 }
 
 .special-offers__box {
@@ -282,9 +291,7 @@ color: #83888F;
     margin-top: 80px;
     margin-left: 65px;
     display: flex;
-    gap: 349px;
-    
-    
+    gap: 349px;  
 }
 
 .circle-tre {
@@ -293,6 +300,14 @@ color: #83888F;
     border-radius: 50%;
     background: #FEFCF7;
     border: 2px solid #0E8784;
+}
+
+.circle-line__dot{
+    width: 760px;
+    height: 1px;
+    border: 2px solid #FDD6BA;
+    margin-left: 80px;
+    margin-top: -18px;
 }
 
 .health-control__site {
@@ -366,6 +381,34 @@ color: #FDD6BA;
     height: 120px;
     display: flex;
     margin-top: 200px;
+}
+
+.footer__nav-box ul {
+    display: flex;
+    align-items:center;
+    gap: 33px;
+}
+
+.footer__nav-box li {
+    list-style-type: none;
+}
+
+.footer__nav-box ul li a {
+    text-decoration: none;
+    white-space: nowrap;
+    width: 270px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #aaa;
+}
+
+.footer__nav-box ul li a:hover {
+    opacity: 1;
+    color: #fff;
+    transition: 0.3s ease;
 }
 
 .site-footer__img {
