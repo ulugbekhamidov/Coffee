@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow","Fraunces";
+}
+
+.container {
+    max-width: 1440px;
+    padding: 44px;
+    margin: auto;
+}
+
+.header-inner__box {
+    margin-left: 755px;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav ul {
+    display: flex;
+    align-items:center;
+    gap: 33px;
+}
+
+.header__nav li {
+    list-style-type: none;
+}
+
+.header__nav ul li a {
+    text-decoration: none;
+    white-space: nowrap;
+    width: 270px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.header__nav ul li a:hover {
+    opacity: 1;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.info-watch__box {
+    background-image:url(./img/tayorlangan\ coffe1.png);
+    width: 1280px;
+    height: 450px;
+    padding-top: 137px;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
+.info-watch__title{
+    width: 188px;
+    height: 48px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-left: 85px;
+}
+
+.info-watch__text {
+    width: 445px;
+    height: 104px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.7;
+    margin-left: 85px;
+    margin-top: 24px;
+}
+
+.triple-info__section {
+    display: flex;
+}
+
+.skillful-art {
+    margin-top: 168px;
+}
+
+.triple-info__box {
+    margin-top: 258px;
+    margin-left: 125px;
+}
+
+.our-commitment__text {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.simple-mission__text {
+    width: 540px;
+    height: 260px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 32px;
+}
+
+.brand-section {
+    display: flex;
+    width: 1280px;
+    height: 500px;
+    background-color:#333D4B;
+    border-radius: 10px;
+    margin-top: 244px;
+}
+
+.uncompromising-quality__text {
+    width: 517px;
+    height: 48px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-top: 90px;
+    margin-left: 85px;
+}
+
+.we-work__text {
+    width: 540px;
+    height: 130px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 32px;
+    margin-left: 85px;
+}
+
+.brand-section__img {
+    margin-left: 125px;
+    margin-top: -100px;
+}
+
+.how-works {
+    height: 32px;
+    top: calc(50% - 32px/2 - 266.5px);
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 85px;
+    margin-top: 168px;
+    color: #83888F;
+}
+
+.health-control__site {
+    display: flex;
+    gap: 95px;
+    margin-left: 85px;
+    margin-top: 72px;
+}
+
+.control-health {
+    width: 272px;
+    height: 36px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 50px;
+    color: #333D4B;
+}
+
+.health-for__you {
+    width: 200px;
+    height: 107px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    color: #333D4B;
+}
+
+.main-footer {
+    background-color: #2C343E;
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    margin-top: 168px;
+}
+
+.footer__nav-box ul {
+    display: flex;
+    align-items:center;
+    gap: 33px;
+}
+
+.footer__nav-box li {
+    list-style-type: none;
+}
+
+.footer__nav-box ul li a {
+    text-decoration: none;
+    white-space: nowrap;
+    width: 270px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #aaa;
+}
+
+.footer__nav-box ul li a:hover {
+    opacity: 1;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.site-footer__img {
+    margin: 47px;
+}
+
+.footer-inner__box {
+    margin-top: 53px;
+    margin-left: 103px;
+}
+
+.site-icon {
+    margin-top: 53px;
+    margin-left: 369px;
+    display: flex;
+    gap: 24px;
+}

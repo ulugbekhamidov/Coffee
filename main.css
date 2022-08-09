@@ -12,7 +12,7 @@
 }
 
 .header-inner__box {
-    margin-left: 710px;
+    margin-left: 755px;
 }
 
 .site-header {
@@ -275,23 +275,20 @@
 .how-works {
     height: 32px;
     top: calc(50% - 32px/2 - 266.5px);
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
     margin-left: 65px;
-
-
-
-color: #83888F;
+    color: #83888F;
 }
 
 .line-dot {
     margin-top: 80px;
     margin-left: 65px;
     display: flex;
-    gap: 349px;  
+    gap: 349px;
 }
 
 .circle-tre {
@@ -299,7 +296,7 @@ color: #83888F;
     height: 31px;
     border-radius: 50%;
     background: #FEFCF7;
-    border: 2px solid #0E8784;
+    border: 2px solid #0E8784; 
 }
 
 .circle-line__dot{
