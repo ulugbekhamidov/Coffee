@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow","Fraunces";
+}
+
+.container {
+    max-width: 1440px;
+    padding: 44px;
+    margin: auto;
+}
+
+.header-inner__box {
+    margin-left: 755px;
+}
+
+.site-header {
+    display: flex;
+    align-items:center;
+}
+
+.header__nav ul  {
+    display: flex;
+    align-items:center;
+    gap: 33px;
+}
+
+.header__nav li {
+    list-style: none;
+}
+
+.header__nav li a {
+    text-decoration: none;
+    white-space: nowrap;
+    width: 270px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.header__nav ul li a:hover {
+    opacity: 1;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.info-watch__box {
+    background-image:url(./img/coffee\ in\ a\ cup.png);
+    width: 1280px;
+    height: 450px;
+    padding-top: 137px;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
+.info-watch__title {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-left: 86px;
+}
+
+.info-watch__text {
+    width: 445px;
+    height: 78px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-left: 86px;
+    margin-top: 32px;
+}
+
+.triple-info__section {
+    background-color: #2C343E;
+    width: 1280px;
+    height: 653px;
+    border-radius: 10px;
+    margin-top: 164px;
+}
+
+.skillful-art {
+    padding-top: 10px;
+}
+
+.line-dot {
+    margin-top: 80px;
+    margin-left: 65px;
+    display: flex;
+    gap: 349px;
+}
+
+.circle-tre {
+    width: 31px;
+    height: 31px;
+    white-space: nowrap;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+}
+
+.circle-line__dot{
+    width: 760px;
+    height: 0px;
+    border: 2px solid #FDD6BA;
+    margin-left: 80px;
+    margin-top: -18px;
+}
+
+.health-control__site {
+    display: flex;
+}
+
+.control-site__box {
+    margin-left: 80px;
+    margin-top: 67px;
+}
+
+.control-health {
+    width: 255px;
+    height: 73px;
+    margin-top: 38px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+}
+
+.control-one__start {
+    width: 90px;
+    height: 72px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.health-for__you {
+    width: 285px;
+    height: 132px;
+    margin-top: 42px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 26px;
+    color: #FEFCF7;
+}
