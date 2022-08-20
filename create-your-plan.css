@@ -161,3 +161,139 @@
     line-height: 26px;
     color: #FEFCF7;
 }
+
+.brand-section {
+    display: flex;
+    margin-left: 77px;
+    margin-top: 159px;
+    gap: 125px;
+}
+
+.brand-section__link a {
+    display:inline-flex;
+    align-items:center;
+    gap: 28.15px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.brand-section__number {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.brand-section__number--one{
+    color: #0E8784;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.brand-section__text {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.brand-section__text--diliver {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.brand-section__line {
+    width: 255px;
+    height: 1px;
+    left: 165px;
+    top: 1851px;
+    background: #83888F;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.filed-site {
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+    border: 0;
+    padding: 0;
+    margin: -1px;
+}
+
+.input-filed__box .label-radio {
+    display: inline-block;
+    border:1px solid #F4F1EB;
+    padding-top: 32px;
+    padding-bottom: 84px;
+    padding-right: 28px;
+    padding-left: 28px;
+    background:#F4F1EB;
+    border-radius: 8px;
+    margin-top: 56px;
+    transition: 0.2s ease; 
+}
+
+.input-filed__box input[type="radio"]:checked + .label-radio{
+    background: #0E8784;
+}
+
+.label-radio:hover {
+    background: #FDD6BA;
+}
+
+.input__filed--site {
+    font-family: 'Fraunces 9pt', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+}
+
+.input-filed__capsule {
+    font-family: 'Fraunces 9pt', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.input-filed__compatible {
+    width: 172px;
+    height: 78px;
+    display: inline-block;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.label-radio span {
+    display: flex;
+    margin-top: 24px;
+}
